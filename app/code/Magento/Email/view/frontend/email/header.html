@@ -13,45 +13,126 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <style type="text/css">
-        {{var template_styles|raw}}
-
-        {{css file="css/email.css"}}
+<style type="text/css">
+      body, p, div {
+        font-family: arial;
+        font-size: 14px;
+      }
+      body {
+        color: f6f6f6;
+      }
+      body a {
+        color: #000000;
+        text-decoration: none;
+      }
+      p { margin: 0; padding: 0; }
+      table.wrapper {
+        width:100% !important;
+        table-layout: fixed;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+      }
+      img.max-width {
+        max-width: 100% !important;
+      }
+      .column.of-2 {
+        width: 50%;
+      }
+      .column.of-3 {
+        width: 33.333%;
+      }
+      .column.of-4 {
+        width: 25%;
+      }
+      @media screen and (max-width:480px) {
+        .preheader .rightColumnContent,
+        .footer .rightColumnContent {
+            text-align: left !important;
+        }
+        .preheader .rightColumnContent div,
+        .preheader .rightColumnContent span,
+        .footer .rightColumnContent div,
+        .footer .rightColumnContent span {
+          text-align: left !important;
+        }
+        .preheader .rightColumnContent,
+        .preheader .leftColumnContent {
+          font-size: 80% !important;
+          padding: 5px 0;
+        }
+        table.wrapper-mobile {
+          width: 100% !important;
+          table-layout: fixed;
+        }
+        img.max-width {
+          height: auto !important;
+          max-width: 480px !important;
+        }
+        a.bulletproof-button {
+          display: block !important;
+          width: auto !important;
+          font-size: 80%;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+        .columns {
+          width: 100% !important;
+        }
+        .column {
+          display: block !important;
+          width: 100% !important;
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          margin-left: 0 !important;
+          margin-right: 0 !important;
+        }
+      }
     </style>
-</head>
-<body>
-{{inlinecss file="css/email-inline.css"}}
-
-<!-- Begin wrapper table -->
-<table class="wrapper" width="100%">
-    <tr>
-        <td class="wrapper-inner" align="center">
-            <table class="main" align="center">
-                <tr>
-                    <td class="header">
-                        <a class="logo" href="{{store url=""}}">
-                            <img
-                                {{if logo_width}}
-                                    width="{{var logo_width}}"
-                                {{else}}
-                                    width="180"
-                                {{/if}}
-
-                                {{if logo_height}}
-                                    height="{{var logo_height}}"
-                                {{/if}}
-
-                                src="{{var logo_url}}"
-                                alt="{{var logo_alt}}"
-                                border="0"
-                            />
-                        </a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="main-content">
-                    <!-- Begin Content -->
+    <!--user entered Head Start-->
+    
+     <!--End Head user entered-->
+  </head>
+  <body>
+    <center class="wrapper" data-link-color="#000000" data-body-style="font-size: 14px; font-family: arial; color: f6f6f6; background-color: #f0f0f0;">
+      <div class="webkit">
+        <table class="wrapper" width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#f0f0f0">
+          <tbody><tr>
+            <td width="100%" valign="top" bgcolor="#f0f0f0">
+              <table role="content-container" class="outer" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody><tr>
+                  <td width="100%">
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tbody><tr>
+                        <td>
+                          <!--[if mso]>
+                          <center>
+                          <table><tr><td width="600">
+                          <![endif]-->
+                          <table style="width: 100%; max-width:600px;" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+                            <tbody><tr>
+                              <td role="modules-container" style="padding: 0px 0px 0px 0px; color: f6f6f6; text-align: left;" width="100%" bgcolor="#ffffff" align="left">
+                                
+    <table class="module preheader preheader-hide" role="module" data-type="preheader" style="display: none !important; mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height: 0; width: 0;" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody><tr>
+        <td role="module-content">
+          <p>Plus great deals on shoes</p>
+        </td>
+      </tr>
+    </tbody></table>
+    <table class="wrapper" role="module" data-type="image" style="table-layout: fixed;" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody><tr>
+        <td style="font-size:6px;line-height:10px;padding:10px 10px 10px 10px;background-color:#000000;" valign="top" align="center">
+          <a href="https://prosoccer.com/"><img class="max-width" style="display:block;color:#000000;text-decoration:none;font-family:Helvetica, arial, sans-serif;font-size:16px;max-width:100% !important;width:100%;height:auto !important;" src="https://marketing-image-production.s3.amazonaws.com/uploads/fd97f86c9fc54e44c34323dc34d1effc4b55f3c4935bebff126527129e1befa15d4555089c030e1668abb049812a5ad3dc423454edce05c9b19120708dc6ad70.png" alt="" width="600" border="0"></a>
+        </td>
+      </tr>
+    </tbody></table>
+  
+    <table class="module" role="module" data-type="text" style="table-layout: fixed;" width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody><tr>
+        <td style="padding:18px 0px 18px 0px;line-height:22px;text-align:inherit;background-color:#ffffff;" valign="top" height="100%" bgcolor="#ffffff">
+            <div style="text-align: center;"><a href="https://prosoccer.com/footwear.html" style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; color: rgb(0, 85, 184); text-align: center;"><span style="color:#000000;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">FOOTWEAR</span></span></span></span></span></a><span style="color:#000000;"><span style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; text-align: center;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">&nbsp; &nbsp;</span></span></span></span></span><a href="https://prosoccer.com/apparel.html" style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; color: rgb(0, 85, 184); text-align: center;"><span style="color:#000000;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">APPAREL</span></span></span></span></span></a><span style="color:#000000;"><span style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; text-align: center;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">&nbsp; &nbsp;</span></span></span></span></span><a href="https://prosoccer.com/shop-goalkeeper-apparel.html" style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; color: rgb(0, 85, 184); text-align: center;"><span style="color:#000000;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">GOALKEEPER</span></span></span></span></span></a><span style="color:#000000;"><span style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; text-align: center;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">&nbsp; &nbsp;</span></span></span></span></span><a href="https://prosoccer.com/equipment.html" style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; color: rgb(0, 85, 184); text-align: center;"><span style="color:#000000;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">EQUIPMENT</span></span></span></span></span></a><span style="color:#000000;"><span style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; text-align: center;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">&nbsp; &nbsp;</span></span></span></span></span><a href="https://prosoccer.com/clearance.html" style="font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 14px; color: rgb(0, 85, 184); text-align: center;"><span style="color:#000000;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="font-size: 14px;"><span style="background-color:#FFFFFF;">CLEARANCE</span></span></span></span></span></a></div>
+        </td>
+      </tr>
+    </tbody></table>
